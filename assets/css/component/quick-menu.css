@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/* ==========================================================================
+   Component: Quick Menu
+   ========================================================================== */
+
+.quick-menu{position:fixed;right:0;bottom:30px;z-index:var(--z-sticky);display:flex;flex-direction:column;background-color:rgba(255,255,255,.3);}
+
+.quick-item{display:block;width:70px;height:70px;}
+.quick-item img{display:block;width:100%;height:100%;object-fit:cover;}
+
+/* 모바일·태블릿: 모바일 메뉴(header-1)와 dim(header-2) 아래로 내려 메뉴가 열리면 퀵메뉴가 가려지게 */
+@media (max-width:1023px){
+	.quick-menu{z-index:calc(var(--z-header) - 3);}
+}
+
+
+
+
+

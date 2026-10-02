@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/* ==========================================================================
+   Web Fonts
+   프로젝트 공통 웹폰트 정의
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Pretendard
+   -------------------------------------------------------------------------- */
+@font-face{
+	font-family:'Pretendard';
+	src:url('../../fonts/pretendard/PretendardVariable.woff2') format('woff2-variations');
+	font-weight:100 900;
+	font-style:normal;
+	font-display:swap;
+}
+
+/* --------------------------------------------------------------------------
+   Roboto
+   -------------------------------------------------------------------------- */
+@font-face{
+	font-family:'Roboto';
+	src:url('../../fonts/roboto/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+	font-weight:100 900;
+	font-style:normal;
+	font-display:swap;
+}
+
+/* --------------------------------------------------------------------------
+   Noto Sans KR
+   -------------------------------------------------------------------------- */
+@font-face{
+	font-family:'Noto Sans KR';
+	src:url('../../fonts/noto-sans/NotoSansKR-VariableFont_wght.ttf') format('truetype');
+	font-weight:100 900;
+	font-style:normal;
+	font-display:swap;
+}
+
+/* --------------------------------------------------------------------------
+   Mrs Saint Delafield (메인 "1mm" 섹션의 필기체 워터마크 전용)
+   -------------------------------------------------------------------------- */
+@font-face{
+	font-family:'Mrs Saint Delafield';
+	src:url('../../fonts/mrs-saint-delafield/MrsSaintDelafield-Regular.woff2') format('woff2');
+	font-weight:400;
+	font-style:normal;
+	font-display:swap;
+}

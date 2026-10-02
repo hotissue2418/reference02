@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+/* ==========================================================================
+   Layout: Page wrapper
+   ========================================================================== */
+
+/* footer가 고정된 상태로 하단에 깔려있다가, 본문(#container)이 다 스크롤되어
+   내려가야 그 아래에서 드러나는 방식(reveal footer). #container는 footer보다
+   위 스택에서 불투명 배경으로 footer를 가리고 있다가, 문서 끝에 도달하면
+   footer 높이만큼 확보해둔 여백(margin-bottom)을 통해 footer가 노출된다. */
+#container{position:relative;z-index:2;background-color:#fff;}

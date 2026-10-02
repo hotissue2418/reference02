@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/* ==========================================================================
+   Component: Custom Cursor (PC 전용)
+   ========================================================================== */
+
+body{cursor:none;}
+
+.cursor-inner{position:fixed;top:-10px;left:-10px;z-index:999998;width:5px;height:5px;border-radius:50%;background-color:rgba(18,60,113,.7);pointer-events:none;}
+.cursor-outer{position:fixed;top:-22px;left:-22px;z-index:999999;width:30px;height:30px;border-radius:50%;border:1px solid rgba(18,60,113,.7);pointer-events:none;}
+
+.cursor-inner.on{background-color:rgba(255,255,255,.7);}
+.cursor-outer.on{border-color:rgba(255,255,255,.7);}
+
+@media (max-width:1023px){
+	body{cursor:auto;}
+	.cursor-inner,
+	.cursor-outer{display:none;}
+}
